@@ -8,5 +8,5 @@ import java.util.List;
 public interface Order {
     Waiter getWaiter();
     List<Menu> getMenuList();
-
+    String showOrder();
 }
